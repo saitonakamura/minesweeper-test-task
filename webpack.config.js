@@ -23,6 +23,7 @@ const config = (env) => {
       publicPath: "/",
     },
     target: "web",
+    // @ts-ignore
     plugins: [
       new MiniCssExtractPlugin({
         filename: "[name].bundle.css",
