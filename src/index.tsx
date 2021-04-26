@@ -5,7 +5,7 @@ import { Game } from "./Game";
 import "./index.css";
 
 const App = () => (
-  <main>
+  <main className="container mx-auto flex justify-center items-center h-screen">
     <Game />
   </main>
 );

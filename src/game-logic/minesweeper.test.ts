@@ -8,12 +8,12 @@ import {
 
 describe("minesweeper", () => {
   it("should be on first step when creating game", () => {
-    const game = createGame(0);
+    const game = createGame(3, 3, 0);
     expect(game.state).toBe("firstStep");
   });
 
   it("should move from first step to playing when opening first cell", () => {
-    const game = createGame(0);
+    const game = createGame(3, 3, 0);
     expect(game.state).toBe("firstStep");
 
     const newGame = openCell(game, [0, 0]);

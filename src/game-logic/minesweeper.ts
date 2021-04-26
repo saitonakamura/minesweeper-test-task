@@ -154,9 +154,11 @@ export const getInitialGame = (): Game => ({
   state: "initial",
 });
 
-export const createGame = (minesCount: number): Game => {
-  const sizeX = 3;
-  const sizeY = 3;
+export const createGame = (
+  sizeX: number,
+  sizeY: number,
+  minesCount: number
+): Game => {
   return {
     state: "firstStep",
     sizeX,
