@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper-test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:saitonakamura/minesweeper-test-task.git",
+  "author": "Michael Bashurov <accounts@saitonakamura.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
