@@ -1,8 +1,13 @@
-import "tailwindcss/tailwind.css";
-
 import React from "react";
 import ReactDOM from "react-dom";
+import { Game } from "./Game";
 
-const App = () => <div>app</div>;
+import "./index.css";
+
+const App = () => (
+  <main>
+    <Game />
+  </main>
+);
 
 ReactDOM.render(<App />, document.querySelector("#root"));
